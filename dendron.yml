@@ -34,7 +34,7 @@ site:
         - root
     siteRootDir: docs
     siteUrl: "https://dendronhq.github.io"
-    assetsPrefix: "template.publish.github-action"
+    assetsPrefix: "template.publish.github"
     usePrettyRefs: true
     title: Dendron
     description: Personal knowledge space
