@@ -1,0 +1,137 @@
+{
+  "notes": {
+    "403": {
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "403",
+      "updated": 1631916753848,
+      "created": 1631916753848,
+      "parent": null,
+      "children": [],
+      "body": "[Dendron](https://dendron.so/) (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page\n\n![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png)",
+      "data": {}
+    },
+    "wn8PE1RhG0znK1alrGFYv": {
+      "id": "wn8PE1RhG0znK1alrGFYv",
+      "title": "Root",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "welcome-to-dendron": {
+          "type": "header",
+          "value": "welcome-to-dendron",
+          "line": 7,
+          "column": 0
+        }
+      },
+      "fname": "root",
+      "updated": 1631901573363,
+      "created": 1631901573363,
+      "parent": null,
+      "children": [],
+      "data": {},
+      "contentHash": "a350beb0806b2136eec5720784ba951f",
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. \n"
+    },
+    "changelog": {
+      "id": "changelog",
+      "title": "Changelog",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "root.changelog",
+      "updated": 1631916753849,
+      "created": 1631916753849,
+      "parent": null,
+      "children": [],
+      "body": "",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "wn8PE1RhG0znK1alrGFYv",
+      "title": "Root",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "welcome-to-dendron": {
+          "type": "header",
+          "value": "welcome-to-dendron",
+          "line": 7,
+          "column": 0
+        }
+      },
+      "fname": "root",
+      "updated": 1631901573363,
+      "created": 1631901573363,
+      "parent": null,
+      "children": [],
+      "data": {},
+      "contentHash": "a350beb0806b2136eec5720784ba951f",
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. \n"
+    }
+  ],
+  "noteIndex": {
+    "id": "wn8PE1RhG0znK1alrGFYv",
+    "title": "Root",
+    "vault": {
+      "fsPath": "vault"
+    },
+    "type": "note",
+    "desc": "",
+    "links": [],
+    "anchors": {
+      "welcome-to-dendron": {
+        "type": "header",
+        "value": "welcome-to-dendron",
+        "line": 7,
+        "column": 0
+      }
+    },
+    "fname": "root",
+    "updated": 1631901573363,
+    "created": 1631901573363,
+    "parent": null,
+    "children": [],
+    "data": {},
+    "contentHash": "a350beb0806b2136eec5720784ba951f",
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. \n"
+  },
+  "vaults": [
+    {
+      "fsPath": "vault"
+    }
+  ]
+}
