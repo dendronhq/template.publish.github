@@ -11,8 +11,8 @@
       "links": [],
       "anchors": {},
       "fname": "403",
-      "updated": 1631919731425,
-      "created": 1631919731425,
+      "updated": 1631921438968,
+      "created": 1631921438968,
       "parent": null,
       "children": [],
       "body": "[Dendron](https://dendron.so/) (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page\n\n![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png)",
@@ -39,7 +39,9 @@
       "updated": 1631901573363,
       "created": 1631901573363,
       "parent": null,
-      "children": [],
+      "children": [
+        "ENDcCZFjAW9h66eDoFg7I"
+      ],
       "data": {},
       "contentHash": "a350beb0806b2136eec5720784ba951f",
       "custom": {
@@ -47,6 +49,99 @@
         "permalink": "/"
       },
       "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. \n"
+    },
+    "ENDcCZFjAW9h66eDoFg7I": {
+      "id": "ENDcCZFjAW9h66eDoFg7I",
+      "title": "Seed",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "seed",
+            "id": "ENDcCZFjAW9h66eDoFg7I",
+            "vaultName": "vault"
+          },
+          "value": "seed.child",
+          "alias": "seed.child",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 47
+            },
+            "end": {
+              "line": 5,
+              "column": 15,
+              "offset": 61
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "seed.child"
+          }
+        }
+      ],
+      "anchors": {},
+      "fname": "seed",
+      "updated": 1631921408939,
+      "created": 1631921362276,
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "children": [
+        "KboSDNpIShkOlDCJuWvZa"
+      ],
+      "data": {},
+      "contentHash": "3b930b3c83f174aba26253f4f73e31fb",
+      "custom": {},
+      "body": "\n\nThis is a page. Plant it and watch it grow.\n\n[[seed.child]]"
+    },
+    "KboSDNpIShkOlDCJuWvZa": {
+      "id": "KboSDNpIShkOlDCJuWvZa",
+      "title": "Child",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [
+        {
+          "from": {
+            "fname": "seed",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 47
+            },
+            "end": {
+              "line": 5,
+              "column": 15,
+              "offset": 61
+            },
+            "indent": []
+          },
+          "value": "seed.child"
+        }
+      ],
+      "anchors": {},
+      "fname": "seed.child",
+      "updated": 1631921393738,
+      "created": 1631921386219,
+      "parent": "ENDcCZFjAW9h66eDoFg7I",
+      "children": [],
+      "data": {},
+      "contentHash": "f59fdce158653788eadf82bceb2bf826",
+      "custom": {},
+      "body": "\nThis is a child of the seed page\n"
     },
     "changelog": {
       "id": "changelog",
@@ -59,8 +154,8 @@
       "links": [],
       "anchors": {},
       "fname": "root.changelog",
-      "updated": 1631919731425,
-      "created": 1631919731425,
+      "updated": 1631921438968,
+      "created": 1631921438968,
       "parent": null,
       "children": [],
       "body": "",
@@ -89,7 +184,9 @@
       "updated": 1631901573363,
       "created": 1631901573363,
       "parent": null,
-      "children": [],
+      "children": [
+        "ENDcCZFjAW9h66eDoFg7I"
+      ],
       "data": {},
       "contentHash": "a350beb0806b2136eec5720784ba951f",
       "custom": {
@@ -120,7 +217,9 @@
     "updated": 1631901573363,
     "created": 1631901573363,
     "parent": null,
-    "children": [],
+    "children": [
+      "ENDcCZFjAW9h66eDoFg7I"
+    ],
     "data": {},
     "contentHash": "a350beb0806b2136eec5720784ba951f",
     "custom": {
