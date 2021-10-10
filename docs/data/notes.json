@@ -11,11 +11,10 @@
       "links": [],
       "anchors": {},
       "fname": "403",
-      "updated": 1632071461334,
-      "created": 1632071461334,
+      "updated": 1633824299269,
+      "created": 1633824299269,
       "parent": null,
       "children": [],
-      "body": "[Dendron](https://dendron.so/) (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page\n\n![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png)",
       "data": {}
     },
     "wn8PE1RhG0znK1alrGFYv": {
@@ -47,8 +46,7 @@
       "custom": {
         "nav_order": 0,
         "permalink": "/"
-      },
-      "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. \n"
+      }
     },
     "ENDcCZFjAW9h66eDoFg7I": {
       "id": "ENDcCZFjAW9h66eDoFg7I",
@@ -98,8 +96,7 @@
       ],
       "data": {},
       "contentHash": "3b930b3c83f174aba26253f4f73e31fb",
-      "custom": {},
-      "body": "\n\nThis is a page. Plant it and watch it grow.\n\n[[seed.child]]"
+      "custom": {}
     },
     "KboSDNpIShkOlDCJuWvZa": {
       "id": "KboSDNpIShkOlDCJuWvZa",
@@ -140,8 +137,7 @@
       "children": [],
       "data": {},
       "contentHash": "f59fdce158653788eadf82bceb2bf826",
-      "custom": {},
-      "body": "\nThis is a child of the seed page\n"
+      "custom": {}
     },
     "changelog": {
       "id": "changelog",
@@ -154,11 +150,10 @@
       "links": [],
       "anchors": {},
       "fname": "root.changelog",
-      "updated": 1632071461334,
-      "created": 1632071461334,
+      "updated": 1633824299269,
+      "created": 1633824299269,
       "parent": null,
       "children": [],
-      "body": "",
       "data": {}
     }
   },
