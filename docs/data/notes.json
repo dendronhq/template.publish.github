@@ -11,8 +11,8 @@
       "links": [],
       "anchors": {},
       "fname": "403",
-      "updated": 1633824993234,
-      "created": 1633824993234,
+      "updated": 1633898211532,
+      "created": 1633898211532,
       "parent": null,
       "children": [],
       "data": {}
@@ -43,7 +43,7 @@
         "ENDcCZFjAW9h66eDoFg7I"
       ],
       "data": {},
-      "contentHash": "59b0d092f4ff84ee4419b5f8d9388b99",
+      "contentHash": "52165ef04021483bdb2ae50df2a67cd9",
       "custom": {
         "nav_order": 0,
         "permalink": "/"
@@ -151,8 +151,8 @@
       "links": [],
       "anchors": {},
       "fname": "root.changelog",
-      "updated": 1633824993234,
-      "created": 1633824993234,
+      "updated": 1633898211532,
+      "created": 1633898211532,
       "parent": null,
       "children": [],
       "data": {}
@@ -185,12 +185,12 @@
         "ENDcCZFjAW9h66eDoFg7I"
       ],
       "data": {},
-      "contentHash": "59b0d092f4ff84ee4419b5f8d9388b99",
+      "contentHash": "52165ef04021483bdb2ae50df2a67cd9",
       "custom": {
         "nav_order": 0,
         "permalink": "/"
       },
-      "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. \n\nRevision: 1\n"
+      "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. \n\nRevision: 2\n"
     }
   ],
   "noteIndex": {
@@ -219,12 +219,12 @@
       "ENDcCZFjAW9h66eDoFg7I"
     ],
     "data": {},
-    "contentHash": "59b0d092f4ff84ee4419b5f8d9388b99",
+    "contentHash": "52165ef04021483bdb2ae50df2a67cd9",
     "custom": {
       "nav_order": 0,
       "permalink": "/"
     },
-    "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. \n\nRevision: 1\n"
+    "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. \n\nRevision: 2\n"
   },
   "vaults": [
     {
