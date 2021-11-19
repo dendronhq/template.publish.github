@@ -41,15 +41,14 @@
     abortcontroller-polyfill "^1.4.0"
     lodash "^4.17.21"
     node-fetch "^2.6.1"
-
-"@dendronhq/api-server@^0.68.0":
-  version "0.68.0"
-  resolved "https://registry.npmjs.org/@dendronhq/api-server/-/api-server-0.68.0.tgz#c7b618d0fe54a5fad620a4a5a6be5acd58e9075d"
-  integrity sha512-kCVsvpD7ikzjm2thIbE666AOngvESI/ep0/9h2h81dsp72ZP5mYyACuuvNS84ZY2bOBJLkGYJh7wNEBJTqVJoQ==
+"@dendronhq/api-server@^0.69.2":
+  version "0.69.2"
+  resolved "https://registry.npmjs.org/@dendronhq/api-server/-/api-server-0.69.2.tgz#5feb6e7a616b5d4446a2503c529b1ebe1dbbb5ac"
+  integrity sha512-iYV/DK7cQa4zLN1TR2VLlnFJ00ZJFylHFQWeVKBOTUXrUs1dLHrU5dsQ9HFdl+IQv53c6y5OvdJiRQJfLvqQWA==
   dependencies:
-    "@dendronhq/common-all" "^0.68.0"
-    "@dendronhq/common-server" "^0.68.0"
-    "@dendronhq/engine-server" "^0.68.0"
+    "@dendronhq/common-all" "^0.69.2"
+    "@dendronhq/common-server" "^0.69.2"
+    "@dendronhq/engine-server" "^0.69.2"
     "@sentry/integrations" "^6.13.1"
     "@sentry/node" "^6.13.1"
     cors "^2.8.5"
@@ -61,10 +60,17 @@
     morgan "^1.10.0"
     querystring "^0.2.1"
 
+<<<<<<< HEAD
 "@dendronhq/common-all@^0.68.0":
   version "0.68.0"
   resolved "https://registry.npmjs.org/@dendronhq/common-all/-/common-all-0.68.0.tgz#44d63124ee4a0b1c746c2a629284675897d7bbd9"
   integrity sha512-9W9TS7S0kaISPhXtIQKt3LjvaqkhMr0iZkX/oI86V//zGThlnYbxVhPNW1LAeM3vpRxNf9k1g5uwYj3bii96Ag==
+=======
+"@dendronhq/common-all@^0.69.2":
+  version "0.69.2"
+  resolved "https://registry.npmjs.org/@dendronhq/common-all/-/common-all-0.69.2.tgz#c66cd3b2cbb63bd4e4a1a290a53cb6b4f9dae944"
+  integrity sha512-U+yIKyMIXBNU1iBOo5kv7geHVB4zL77B5hzlqkavqSkMJbSFtb4VI8U9h9r5VPUEdsSg8QYp0qXVS9hnngDpkA==
+>>>>>>> 7876488 (update package.json)
   dependencies:
     "@types/github-slugger" "^1.3.0"
     "@types/lodash" "^4.14.152"
@@ -94,12 +100,21 @@
     vscode-uri "^2.1.2"
     yamljs "^0.3.0"
 
+<<<<<<< HEAD
 "@dendronhq/common-server@^0.68.0":
   version "0.68.0"
   resolved "https://registry.npmjs.org/@dendronhq/common-server/-/common-server-0.68.0.tgz#652747272773ec06ca4829c15b71ffee2ab10d38"
   integrity sha512-h5buWIFi93pb6qWmxuKocZymkRXWXKDq6o+pYUJiyKCFclxNJvF/FvW0MIJVDEttDgRs/KaR3eIIHpkpfsL7zA==
   dependencies:
     "@dendronhq/common-all" "^0.68.0"
+=======
+"@dendronhq/common-server@^0.69.2":
+  version "0.69.2"
+  resolved "https://registry.npmjs.org/@dendronhq/common-server/-/common-server-0.69.2.tgz#25897354974afd2934c0072f2a90b3be000118a1"
+  integrity sha512-YQETHmO8gvR8k6B/r6L13p8RADFY4Q+augeY+sAycQHWRh9Od+xoy1/T1YNOr4wrRr+oWMgbJx5fJ67yMb37dA==
+  dependencies:
+    "@dendronhq/common-all" "^0.69.2"
+>>>>>>> 7876488 (update package.json)
     "@sentry/integrations" "^6.13.3"
     "@sentry/node" "^6.13.3"
     "@types/analytics-node" "^3.1.6"
@@ -116,6 +131,10 @@
     ajv "^8.6.0"
     ajv-errors "^3.0.0"
     analytics-node "^5.1.0"
+<<<<<<< HEAD
+=======
+    anymatch "^3.1.2"
+>>>>>>> 7876488 (update package.json)
     comment-json "^4.1.0"
     execa "^5.0.0"
     fs-extra "^9.0.1"
@@ -129,6 +148,7 @@
     tmp "^0.2.1"
     vscode-uri "^2.1.2"
 
+<<<<<<< HEAD
 "@dendronhq/dendron-cli@^0.68.0":
   version "0.68.0"
   resolved "https://registry.npmjs.org/@dendronhq/dendron-cli/-/dendron-cli-0.68.0.tgz#8547e4b95dc7cf8a5de40537e896db0b15dc696b"
@@ -139,6 +159,18 @@
     "@dendronhq/common-server" "^0.68.0"
     "@dendronhq/engine-server" "^0.68.0"
     "@dendronhq/pods-core" "^0.68.0"
+=======
+"@dendronhq/dendron-cli@^0.69.2":
+  version "0.69.2"
+  resolved "https://registry.npmjs.org/@dendronhq/dendron-cli/-/dendron-cli-0.69.2.tgz#be58993658296bcf1618fd17110d64bea64bbaf8"
+  integrity sha512-R7T35sUC7L70r3lSIUa0ktYfizSMHy9NlwVTigzolDOkQUKlw1GcbZbryezruujjmnfLmcTSDv6Bv1JXbgWrvQ==
+  dependencies:
+    "@dendronhq/api-server" "^0.69.2"
+    "@dendronhq/common-all" "^0.69.2"
+    "@dendronhq/common-server" "^0.69.2"
+    "@dendronhq/engine-server" "^0.69.2"
+    "@dendronhq/pods-core" "^0.69.2"
+>>>>>>> 7876488 (update package.json)
     "@jcoreio/async-throttle" "^1.3.2"
     "@types/prompts" "^2.0.14"
     fs-extra "^9.0.1"
@@ -150,6 +182,7 @@
     ts-json-schema-generator "^0.95.0"
     yargs "^15.4.1"
 
+<<<<<<< HEAD
 "@dendronhq/engine-server@^0.68.0":
   version "0.68.0"
   resolved "https://registry.npmjs.org/@dendronhq/engine-server/-/engine-server-0.68.0.tgz#ec2cf7d88f63c4053e3324c0d66902ddb7aa2e75"
@@ -157,6 +190,15 @@
   dependencies:
     "@dendronhq/common-all" "^0.68.0"
     "@dendronhq/common-server" "^0.68.0"
+=======
+"@dendronhq/engine-server@^0.69.2":
+  version "0.69.2"
+  resolved "https://registry.npmjs.org/@dendronhq/engine-server/-/engine-server-0.69.2.tgz#523effdb478984eabd37a9105bc32d3415a8d0e6"
+  integrity sha512-xvFzU5gWSUThnxgdJtIFwNZ/3fFNKPNWdhbfPynJSlLcFZKcd6MhEKC8lZzFfmKzTln7TTKOqm5gj9jaRMfdag==
+  dependencies:
+    "@dendronhq/common-all" "^0.69.2"
+    "@dendronhq/common-server" "^0.69.2"
+>>>>>>> 7876488 (update package.json)
     "@dendronhq/remark-mermaid" "^0.2.0"
     "@mapbox/rehype-prism" "^0.5.0"
     "@types/fs-extra" "^9.0.1"
@@ -212,6 +254,7 @@
     vscode-uri "^2.1.2"
     yamljs "^0.3.0"
 
+<<<<<<< HEAD
 "@dendronhq/pods-core@^0.68.0":
   version "0.68.0"
   resolved "https://registry.npmjs.org/@dendronhq/pods-core/-/pods-core-0.68.0.tgz#7168cdeb3fcb0e831533b104ce89ca6e022a1944"
@@ -221,6 +264,17 @@
     "@dendronhq/common-all" "^0.68.0"
     "@dendronhq/common-server" "^0.68.0"
     "@dendronhq/engine-server" "^0.68.0"
+=======
+"@dendronhq/pods-core@^0.69.2":
+  version "0.69.2"
+  resolved "https://registry.npmjs.org/@dendronhq/pods-core/-/pods-core-0.69.2.tgz#dce83b0a795f4c0cb67e05cfc623f624d23bb7b4"
+  integrity sha512-KzgLuOD8xl8Lr3CEVbS39iSyYukZ65NKYmO7rtdkIbdkcha5Y8O4mglD9SmSdcyc9Kl77m2NEz2dG8pBavPkFA==
+  dependencies:
+    "@dendronhq/airtable" "^0.11.1"
+    "@dendronhq/common-all" "^0.69.2"
+    "@dendronhq/common-server" "^0.69.2"
+    "@dendronhq/engine-server" "^0.69.2"
+>>>>>>> 7876488 (update package.json)
     "@instantish/martian" "^1.0.3"
     "@notionhq/client" "^0.1.9"
     "@octokit/graphql" "^4.6.4"
@@ -357,6 +411,7 @@
     component-type "^1.2.1"
     join-component "^1.1.0"
 
+<<<<<<< HEAD
 "@sentry/core@6.14.3":
   version "6.14.3"
   resolved "https://registry.npmjs.org/@sentry/core/-/core-6.14.3.tgz#42d255c1a8838e8f9d122b823ba5ff5c27803537"
@@ -406,11 +461,63 @@
     "@sentry/tracing" "6.14.3"
     "@sentry/types" "6.14.3"
     "@sentry/utils" "6.14.3"
+=======
+"@sentry/core@6.14.1":
+  version "6.14.1"
+  resolved "https://registry.npmjs.org/@sentry/core/-/core-6.14.1.tgz#cbb6eae808279ae2147dd5da22ce6ab5a1cd69d1"
+  integrity sha512-x2MOax+adphal0ytBsvQukwN5mcxZzb5zsPZ1YWzewQk3BY+2T/DFo50iVpaWdUXsJL2FtoZVVgtpTmf+/3JPw==
+  dependencies:
+    "@sentry/hub" "6.14.1"
+    "@sentry/minimal" "6.14.1"
+    "@sentry/types" "6.14.1"
+    "@sentry/utils" "6.14.1"
+    tslib "^1.9.3"
+
+"@sentry/hub@6.14.1":
+  version "6.14.1"
+  resolved "https://registry.npmjs.org/@sentry/hub/-/hub-6.14.1.tgz#6a82cae35de834bd92bbcd3912a1e3029a5369de"
+  integrity sha512-IqANj5qKG1N+nqBsuYIwAZsXDMmO/Sc4H2zZ2MP7QvRyp0ptpJmu1oTE0r0fohIcGgIWbnIphJjw990Lp507eA==
+  dependencies:
+    "@sentry/types" "6.14.1"
+    "@sentry/utils" "6.14.1"
+    tslib "^1.9.3"
+
+"@sentry/integrations@^6.13.1", "@sentry/integrations@^6.13.3":
+  version "6.14.1"
+  resolved "https://registry.npmjs.org/@sentry/integrations/-/integrations-6.14.1.tgz#2293d954cdb14e1992f6bdc6484275defb2667f2"
+  integrity sha512-GZFp03w0c/o2iY1oxebsqpumsDQsoOWiUXpfPriG6UoXZdCDrSoiotaRHPAagsWKQ1XjbILph8Vdz5dSMIuQTg==
+  dependencies:
+    "@sentry/types" "6.14.1"
+    "@sentry/utils" "6.14.1"
+    localforage "^1.8.1"
+    tslib "^1.9.3"
+
+"@sentry/minimal@6.14.1":
+  version "6.14.1"
+  resolved "https://registry.npmjs.org/@sentry/minimal/-/minimal-6.14.1.tgz#6fbce5b873fb096411dbb9a01ff6706ed684f2e8"
+  integrity sha512-rxS0YUggCSuA7EzS1ai5jU8XArk4FBHZ02gmSoSSLtwFXmeQIa9XBKY0OEFmG2LMQYNOpvcGsezDO51EB6/X9w==
+  dependencies:
+    "@sentry/hub" "6.14.1"
+    "@sentry/types" "6.14.1"
+    tslib "^1.9.3"
+
+"@sentry/node@^6.13.1", "@sentry/node@^6.13.3":
+  version "6.14.1"
+  resolved "https://registry.npmjs.org/@sentry/node/-/node-6.14.1.tgz#475229eb0a3c7032a905a7f49888e1374499ecf3"
+  integrity sha512-tnEfcaF5Z7I4D619XL76sjRd7VMDitZZ7ydfA8sWGC1BPaPyyIJzVxE/a7qJBQGW7W0Oo7ctwOI1hpmfyOpPxg==
+  dependencies:
+    "@sentry/core" "6.14.1"
+    "@sentry/hub" "6.14.1"
+    "@sentry/tracing" "6.14.1"
+    "@sentry/types" "6.14.1"
+    "@sentry/utils" "6.14.1"
+>>>>>>> 7876488 (update package.json)
     cookie "^0.4.1"
     https-proxy-agent "^5.0.0"
     lru_map "^0.3.3"
     tslib "^1.9.3"
 
+<<<<<<< HEAD
 "@sentry/tracing@6.14.3":
   version "6.14.3"
   resolved "https://registry.npmjs.org/@sentry/tracing/-/tracing-6.14.3.tgz#0223d365ea0c7d3f7c90cb17ea84c4874bc9ef52"
@@ -433,6 +540,30 @@
   integrity sha512-jsCnclEsR2sV9aHMuaLA5gvxSa0xV4Sc6IJCJ81NTTdb/A5fFbteFBbhuISGF9YoFW1pwbpjuTA6+efXwvLwNQ==
   dependencies:
     "@sentry/types" "6.14.3"
+=======
+"@sentry/tracing@6.14.1":
+  version "6.14.1"
+  resolved "https://registry.npmjs.org/@sentry/tracing/-/tracing-6.14.1.tgz#fadea88b505078f61b949ecd99891ddb5538f08e"
+  integrity sha512-Bv/+S5Wn9OPxP7sA9VYMV1wpmXWptFVIMFoG4BuyV4aFYdIAMxSNE/ktqXwmqn+nkBic04nP9rF6lMJBLIvIaA==
+  dependencies:
+    "@sentry/hub" "6.14.1"
+    "@sentry/minimal" "6.14.1"
+    "@sentry/types" "6.14.1"
+    "@sentry/utils" "6.14.1"
+    tslib "^1.9.3"
+
+"@sentry/types@6.14.1":
+  version "6.14.1"
+  resolved "https://registry.npmjs.org/@sentry/types/-/types-6.14.1.tgz#0d562a7aa91253b7843723344b4ba03a010e6376"
+  integrity sha512-RIk3ZwQKZnASrYWfV5i4wbzVveHz8xLFAS2ySIMqh+hICKnB0N4/r8a1Of/84j7pj+iAbf5vPS85639eIf+9qg==
+
+"@sentry/utils@6.14.1":
+  version "6.14.1"
+  resolved "https://registry.npmjs.org/@sentry/utils/-/utils-6.14.1.tgz#cb746858665314c07cfe9b0f307b410e377032ad"
+  integrity sha512-GVvf0z18L4DN0a6vIBdHSlrK/Dj8QFhuiiJ8NtccSoY8xiKXQNz9FKN5d52NUNqm59aopAxcVAcs57yQSdxrZQ==
+  dependencies:
+    "@sentry/types" "6.14.1"
+>>>>>>> 7876488 (update package.json)
     tslib "^1.9.3"
 
 "@sindresorhus/is@^4.0.0":
@@ -811,7 +942,11 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
+<<<<<<< HEAD
 anymatch@~3.1.2:
+=======
+anymatch@^3.1.2, anymatch@~3.1.2:
+>>>>>>> 7876488 (update package.json)
   version "3.1.2"
   resolved "https://registry.npmjs.org/anymatch/-/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
   integrity sha512-P43ePfOAIupkguHUycrc4qJ9kz8ZiuOUijaETwX7THt0Y/GNK7v0aa8rY816xWjZ7rJdA5XdMcpVFTKMq+RvWg==
