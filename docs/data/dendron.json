@@ -43,7 +43,8 @@
       "note": {
         "selectionMode": "extract",
         "confirmVaultOnCreate": false,
-        "leaveTrace": false
+        "leaveTrace": false,
+        "bubbleUpCreateNew": true
       }
     },
     "insertNote": {
@@ -111,5 +112,12 @@
     "enableUserTags": true,
     "enableHashTags": true,
     "dendronVersion": "0.66.2"
+  },
+  "preview": {
+    "enableFMTitle": true,
+    "enableNoteTitleForLink": true,
+    "enableMermaid": true,
+    "enablePrettyRefs": true,
+    "enableKatex": true
   }
 }

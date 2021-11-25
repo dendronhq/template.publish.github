@@ -11,8 +11,8 @@
       "links": [],
       "anchors": {},
       "fname": "403",
-      "updated": 1636132508122,
-      "created": 1636132508122,
+      "updated": 1637881058307,
+      "created": 1637881058307,
       "parent": null,
       "children": [],
       "data": {}
@@ -139,23 +139,6 @@
       "data": {},
       "contentHash": "f59fdce158653788eadf82bceb2bf826",
       "custom": {}
-    },
-    "changelog": {
-      "id": "changelog",
-      "title": "Changelog",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "type": "note",
-      "desc": "",
-      "links": [],
-      "anchors": {},
-      "fname": "root.changelog",
-      "updated": 1636132508122,
-      "created": 1636132508122,
-      "parent": null,
-      "children": [],
-      "data": {}
     }
   },
   "domains": [
