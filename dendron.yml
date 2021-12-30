@@ -1,10 +1,8 @@
-version: 3
+version: 4
 useFMTitle: true
 useNoteTitleForLink: true
-noLegacyNoteRef: true
 mermaid: true
 useKatex: true
-usePrettyRefs: true
 dev:
     enablePreviewV2: true
 site:
@@ -29,6 +27,8 @@ commands:
             selectionMode: extract
             confirmVaultOnCreate: false
             leaveTrace: false
+            bubbleUpCreateNew: true
+            fuzzThreshold: 0.2
     insertNote:
         initialValue: templates
     insertNoteLink:
@@ -81,4 +81,12 @@ workspace:
         createTaskSelectionType: selection2link
     enableUserTags: true
     enableHashTags: true
-    dendronVersion: 0.66.2
+    dendronVersion: 0.75.2
+    enableEditorDecorations: true
+preview:
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: true
+    enableKatex: true
+    automaticallyShowPreview: false
