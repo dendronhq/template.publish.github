@@ -7,6 +7,14 @@ This project is a minimal setup template for publishing a Dendron Workspace to N
 Directions on how to use this template are mentioned in:
 - [Dendron Docs: Publishing with GitHub Pages](https://wiki.dendron.so/notes/yg3EL1x9fEe4NMqxUC3jP/)
 
+> **Highly Recommended**: Use GitHub Actions to automatically take care of generating and publishing your website, instead!
+> - [Dendron Docs: Publishing with GitHub Pages via GitHub Actions](https://wiki.dendron.so/notes/FnK2ws6w1uaS1YzBUY3BR/)
+>   - [Template](https://github.com/dendronhq/template.publish.github-action)
+
+## Other Publishing Paths
+
+- [Share Your Notes Online: Publish Dendron with Netlify and GitHub](https://blog.dendron.so/notes/7h7zZkjF4Yqz8XSrHS1je)
+
 ## Related
 
 * [Dendron Getting Started Guide](https://wiki.dendron.so/notes/678c77d9-ef2c-4537-97b5-64556d6337f1/)
