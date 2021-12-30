@@ -120,6 +120,5 @@
     "enablePrettyRefs": true,
     "enableKatex": true,
     "automaticallyShowPreview": false
-  },
-  "usePrettyRefs": true
+  }
 }
