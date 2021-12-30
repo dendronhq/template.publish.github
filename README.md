@@ -2,7 +2,7 @@
 
 - [View the Demo Website](https://dendronhq.github.io/template.publish.github/)
 
-This project is a minimal setup template for publishing a Dendron Workspace to Netlify.
+This project is a minimal setup template for publishing a Dendron Workspace to GitHub Pages.
 
 Directions on how to use this template are mentioned in:
 - [Dendron Docs: Publishing with GitHub Pages](https://wiki.dendron.so/notes/yg3EL1x9fEe4NMqxUC3jP/)
