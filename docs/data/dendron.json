@@ -1,11 +1,9 @@
 {
-  "version": 3,
+  "version": 4,
   "useFMTitle": true,
   "useNoteTitleForLink": true,
-  "noLegacyNoteRef": true,
   "mermaid": true,
   "useKatex": true,
-  "usePrettyRefs": true,
   "dev": {
     "enablePreviewV2": true
   },
@@ -44,7 +42,8 @@
         "selectionMode": "extract",
         "confirmVaultOnCreate": false,
         "leaveTrace": false,
-        "bubbleUpCreateNew": true
+        "bubbleUpCreateNew": true,
+        "fuzzThreshold": 0.2
       }
     },
     "insertNote": {
@@ -111,13 +110,16 @@
     },
     "enableUserTags": true,
     "enableHashTags": true,
-    "dendronVersion": "0.66.2"
+    "dendronVersion": "0.75.2",
+    "enableEditorDecorations": true
   },
   "preview": {
     "enableFMTitle": true,
     "enableNoteTitleForLink": true,
     "enableMermaid": true,
     "enablePrettyRefs": true,
-    "enableKatex": true
-  }
+    "enableKatex": true,
+    "automaticallyShowPreview": false
+  },
+  "usePrettyRefs": true
 }
