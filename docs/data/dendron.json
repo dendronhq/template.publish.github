@@ -1,40 +1,7 @@
 {
-  "version": 4,
-  "useFMTitle": true,
-  "useNoteTitleForLink": true,
-  "mermaid": true,
-  "useKatex": true,
+  "version": 5,
   "dev": {
     "enablePreviewV2": true
-  },
-  "site": {
-    "copyAssets": true,
-    "siteHierarchies": [
-      "root"
-    ],
-    "siteRootDir": "docs",
-    "siteUrl": "https://dendronhq.github.io",
-    "assetsPrefix": "/template.publish.github",
-    "usePrettyRefs": true,
-    "title": "Dendron",
-    "description": "Personal knowledge space",
-    "siteLastModified": true,
-    "gh_edit_branch": "main",
-    "duplicateNoteBehavior": {
-      "action": "useVault",
-      "payload": [
-        "vault"
-      ]
-    },
-    "usePrettyLinks": true,
-    "siteNotesDir": "notes",
-    "siteFaviconPath": "favicon.ico",
-    "gh_edit_link": true,
-    "gh_edit_link_text": "Edit this page on GitHub",
-    "gh_root": "docs/",
-    "gh_edit_view_mode": "edit",
-    "writeStubs": true,
-    "siteIndex": "root"
   },
   "commands": {
     "lookup": {
@@ -43,7 +10,8 @@
         "confirmVaultOnCreate": false,
         "leaveTrace": false,
         "bubbleUpCreateNew": true,
-        "fuzzThreshold": 0.2
+        "fuzzThreshold": 0.2,
+        "vaultSelectionModeOnCreate": "smart"
       }
     },
     "insertNote": {
@@ -56,7 +24,8 @@
     "insertNoteIndex": {
       "enableMarker": false
     },
-    "randomNote": {}
+    "randomNote": {},
+    "copyNoteLink": {}
   },
   "workspace": {
     "vaults": [
@@ -110,7 +79,7 @@
     },
     "enableUserTags": true,
     "enableHashTags": true,
-    "dendronVersion": "0.75.2",
+    "dendronVersion": "0.83.0",
     "enableEditorDecorations": true
   },
   "preview": {
@@ -120,5 +89,43 @@
     "enablePrettyRefs": true,
     "enableKatex": true,
     "automaticallyShowPreview": false
+  },
+  "publishing": {
+    "enableFMTitle": true,
+    "enableNoteTitleForLink": true,
+    "enableMermaid": true,
+    "enablePrettyRefs": true,
+    "enableKatex": true,
+    "assetsPrefix": "/template.publish.github",
+    "copyAssets": true,
+    "siteHierarchies": [
+      "root"
+    ],
+    "enableSiteLastModified": true,
+    "siteRootDir": "docs",
+    "siteUrl": "https://dendronhq.github.io",
+    "enableFrontmatterTags": true,
+    "enableHashesForFMTags": false,
+    "enableRandomlyColoredTags": true,
+    "duplicateNoteBehavior": {
+      "action": "useVault",
+      "payload": [
+        "vault"
+      ]
+    },
+    "writeStubs": false,
+    "seo": {
+      "title": "Dendron",
+      "description": "Personal knowledge space"
+    },
+    "github": {
+      "enableEditLink": true,
+      "editLinkText": "Edit this page on GitHub",
+      "editBranch": "main",
+      "editViewMode": "tree"
+    },
+    "enablePrettyLinks": true,
+    "siteFaviconPath": "favicon.ico",
+    "siteIndex": "root"
   }
 }
